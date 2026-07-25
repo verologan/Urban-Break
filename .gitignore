@@ -1,0 +1,57 @@
+# Archivos del Sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.directory
+
+# IDE y Editores
+.vscode/
+.idea/
+.sublime-project
+.sublime-workspace
+*.swp
+*.swo
+*~
+.vim/
+.emacs.d/
+
+# Node (si se usa npm en el futuro)
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+.npm
+
+# Archivos Temporales
+*.tmp
+*.temp
+*.bak
+*.log
+.cache/
+temp/
+
+# Archivos de Configuración Local
+.env
+.env.local
+config.local.js
+
+# Caché del Navegador
+.parcel-cache/
+.cache/
+dist/
+
+# Build
+build/
+out/
+
+# Archivos de Testing
+.coverage
+.pytest_cache/
+coverage/
+
+# Dependencias (si se agregan)
+vendor/
